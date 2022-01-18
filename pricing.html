@@ -4,12 +4,243 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pricing</title>
+    <!-- <link rel="stylesheet" href="pricing_style.css"> -->
+    <style>
+        .vpricing{
+    text-align: center;
+    }
+    .vbutton{
+        width:25%;
+        border: 1px solid;
+
+        display: flex;
+        margin: auto;
+        border-radius: 15px;
+    }
+    .vbutton>div{
+        width:50%;
+    }
+    div>button{
+        border-radius: 15px;
+        border:0;
+        width: 100%;
+        height: 100%;
+        font-size: 25px;
+        
+        
+    }
+    button:focus{
+        background-color: #48505e;
+        color: white;
+    }
+    h1{
+        text-align: center;
+    }
+    .container{
+        margin: auto;
+        width:88%;
+        display:grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap:20px
+    }
+    .card{
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding:8%;
+        border-radius: 4px;
+
+    }
+    .details{
+        padding: 6%;
+    }
+    .btn{
+        border:1px solid;
+        color:blue
+    }
+    .btn:hover{
+        background-color: blue;
+        color:white
+    }
+    li{
+        font-size: 15px;
+        list-style: '✔';
+        /* list-style-image: image("src",""); */
+        
+    }
+   
+
+
+    </style>
+   
 </head>
 <body>
-    <h1>Pricing
-        
-    </h1>
+    <div class="vpricing">
+        PRICING
+    </div>
+    <div>
+        <h1>
+            Plans for your video content creation strategy
+        </h1>
+    </div>
+    <div class="vbutton">
+        <div>
+            <button>Bill monthly</button>
+        </div>
+        <div>
+            <button>Bill yearly</button>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+        <div class="displaygrid">
+            <div class="card">
+                <h3>Community</h3>
+                <p>For casual video enthusiasts</p>
+                <br>
+                <br>
+                <br>
+                <h2>$0</h2>
+                <p>Forever free</p>
+                <br>
+                <br>
+                <button class="btn">Current plan</button>
+
+            </div>
+            <div class="details">
+                <h4>
+                    What's included
+                </h4>
+                <ul>
+                    <li>Unlimited videos</li>
+                    <li>checkContains Lumen5 watermark</li>
+                    <li>check720p video resolution</li>
+                
+                </ul>
+            </div>
+        </div>
+        <div class="displaygrid">
+            <div class="card">
+                <h3>Creator</h3>
+                <p>For individual content creators</p>
+                <br>
+                <br>
+                <h2>$11 USD</h2>
+                <p>Per month</p>
+                <br>
+                <br>
+                <button class="btn">Upgrade</button>
+
+            </div>
+            <div class="details">
+                <h4>
+                    Everything in Free, plus:
+                    
+                    
+                </h4>
+                <ul>
+                    <li>checkUnlimited videos</li>
+                    <li>checkNo Lumen5 branding</li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+        <div class="displaygrid">
+            <div class="card">
+                <h3>Premium</h3>
+                <p>For professional video storytellers</p>
+                <br>
+                <br>
+                <h2>$79 USD</h2>
+                <p>Per month</p>
+                <br>
+                <br>
+                <button class="btn">Upgrade</button>
+
+            </div>
+            <div class="details">
+                <h4>
+                    Everything in Starter, plus:
+                </h4>
+                <ul>
+                    <li>checkUnlimited videos</li>
+                    <li>check15M stock photos & videos</li>
+                    <li>checkCustom colors & styles</li>
+                    <li>check1080p video resolution</li>
+                    <li>checkBrand kits</li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+        <div class="displaygrid">
+            <div class="card">
+                <h3>Business
+                   </h3>
+                <p> For brands focused on reach and growth</p>
+                <br>
+                <br>
+                <h2>$199 USD</h2>
+                <p>Per month</p>
+                <br>
+                <br>
+                <button class="btn">Upgrade</button>
+
+            </div>
+            <div class="details">
+                <h4>
+                    Everything in Premium, plus:
+                    
+                </h4>
+                <ul>
+                    <li>checkUnlimited videos</li>
+                    <li>checkShutterstock libraries</li>
+                    <li>checkUpload watermarks & font</li>
+                    <li>checkMultiple saved templates</li>
+                    <li>checkAbility to add more users</li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+        <div class="displaygrid">
+            <div class="card">
+                <h3>Enterprise
+                    </h3>
+                <p>For large-scale video teams</p>
+                <br>
+                <br>
+                <br>
+                <h2>CUSTOM</h2>
+                <p>Per month</p>
+                <br>
+                <br>
+                <button class="btn">Upgrade</button>
+
+            </div>
+            <div class="details">
+                <h4>
+                    Everything in Business, plus:
+                   
+                </h4>
+                <ul>
+                    <li> checkUnlimited videos</li>
+                    <li> checkApprovals & permissions</li>
+                    <li> checkTwo-factor authentication</li>
+                    <li>checkCustom templates</li>
+                    <li>checkDedicated account manager</li>
+                    
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>
+            Over 6 million videos created by thousands of businesses
+        </h1>
+    </div>
     
+
 </body>
 </html>
