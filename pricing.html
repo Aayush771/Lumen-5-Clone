@@ -12,15 +12,19 @@
     .vbutton{
         width:25%;
         border: 1px solid;
-
         display: flex;
         margin: auto;
-        border-radius: 15px;
+        border-radius: 30px;
+      
     }
-    .vbutton>div{
+    button{
         width:50%;
+        height: 60px;
+        border-radius: 30px;
+        font-size: 20px;
+        border:0;
     }
-    div>button{
+    /* div>button{
         border-radius: 15px;
         border:0;
         width: 100%;
@@ -28,7 +32,7 @@
         font-size: 25px;
 
 
-    }
+    } */
     button:focus{
         background-color: #48505e;
         color: white;
@@ -54,18 +58,20 @@
     }
     .btn{
         border:1px solid;
-        color:blue
+        color: #5846f6;
+        width:fit-content;
+        padding-left: 45px;;
+        padding-right: 45px;
     }
     .btn:hover{
-        background-color: blue;
+        background-color:  #5846f6;
         color:white
     }
     li{
         font-size: 15px;
         list-style: '✔';
-        /* list-style-image: image("src",""); */
-
     }
+        
 
 
 
@@ -84,12 +90,11 @@
         </h1>
     </div>
     <div class="vbutton">
-        <div>
+        
             <button>Bill monthly</button>
-        </div>
-        <div>
+        
             <button>Bill yearly</button>
-        </div>
+        
     </div>
     <br><br><br><br><br>
     <div class="container">
@@ -241,6 +246,14 @@
             Over 6 million videos created by thousands of businesses
         </h1>
     </div>
+    <div style="display: block;margin-left:450px;">
+        <button class="btn">Compare Plans</button>
+        <span style="font-size: 30px;">or</span>
+        <button class="btn">Try It Free</button>
+    </div>
+   
+
+
     
 </body>
 </html>
