@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    background-color: white;
+    padding: 8px 10px ;
+    justify-content: space-between;
+    height: 40px;
+    border-bottom: 1px solid gray;
+}
+img{
+    width: 120px;
+    height: 30px;
+}
+.btn{
+padding: 12px 15px;
+border-radius: 100px;
+border:1px solid #2513c7 ;
+font-size: 13px;
+letter-spacing: 1px;
+color: #2513c7;
+}
+.btn:hover{
+    background-color: #2513c7;
+    color: white;
+}
+.frm{
+        padding: 5px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #5d6575;
+        background-color: transparent;
+        border-width: 0 0 1px ;
+        border-color: transparent transparent #ddd;
+        outline:none;
+        font-size: 15px;
+        
+}
+.nam{
+    border-left:1px black solid;
+    width: 15%;
+    height: 100%;
+    padding-left: 1%;
+}
+#man{
+    display: flex;
+    justify-content: space-around;
+    width: 36%;
+   
+}
+#sidebar{
+    display: flex;
+}
+
+#sidebar1 {
+
+    height: 580px;
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 0 1px 0 0  solid gray;
+}
+#sidebar2{
+    width: 80%;
+    padding-left: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+#bx{
+    width: 98%;
+    height: 40px;
+    margin-bottom: 15px;
+    color:lightslategray;
+    padding-left: 5px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+    align-items:baseline;
+}
+
+#bx:hover{
+    background-color:
+    #f0f0f4;
+}
+.fas{
+    font-size: 20px;
+    padding-right: 10px;
+}
+#tech{
+    padding: 0px;
+    font-size: 12px;
+}
+#cam{
+    color: red;
+    background-color:rgb(88,70,246);
+   height: 300px;
+    width: 240px;
+    border-radius: 3%;
+}
+#mat{
+  position: relative;
+  top: 80px;
+  left: 90px;
+    font-size: 50px;
+    color: white;
+}
+#mats{
+    position: relative;
+    top: 120px;
+    left: 70px;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+#cam:hover{
+    cursor: pointer;
+}
