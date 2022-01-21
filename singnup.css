@@ -51,8 +51,14 @@ img{
     line-height: 1.5;
     color: #5d6575;
     background-color: transparent;
-    border-width: 1px 0;
+    border-width: 0 0 2px ;
     border-color: transparent transparent #ddd;
+    margin-bottom: 20px;
+    transition: border-color .15s #ddd,box-shadow .15s ease-in-out;
+    outline:none;
+    }
+    input:focus{
+        border-color: #5846f6;
     }
 #box{
     width: 70%;
@@ -82,15 +88,19 @@ button{
     font-family: "Poppins",sans-serif;
     letter-spacing: 1px;
     border: none;
+   
 }
 p{
     color: #5d6575;
     font-size: 17px;
+    margin-top: 0px;
+    margin-bottom:5px ;
 }
 #cir{
     display: flex;
       
-    justify-content: space-around
+   justify-content: space-between;
+   padding: 5px 0 20px;
 }
 .dot {
     height: 8px;
@@ -99,4 +109,45 @@ p{
     border-radius: 50%;
     display: inline-block;
   }
+  h5 {
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    padding: 0 2px 0 2px;
+}
+  
+h5:before,
+h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid gray;
+    margin: auto;
+    
+}
+#mac{
+    width: 16px;
+    height: 16px;
+    border-radius: 10%;
+}
+#con{
+    border: solid steelblue;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+}
+a{
+   text-decoration: none;
+   font-weight: 500;
+   letter-spacing: 1px;
+   color: steelblue;
+}
 
+#mon:hover{
+    background-color: #2513c7;
+    cursor:pointer;
+}
+.can{
+    color:#24282f;
+    margin-top: 40px;
+
+}
