@@ -22,15 +22,12 @@
   justify-content: space-around;
   margin-left: 200px;
   margin-right: 50px;
-  
-  
-  
 }
 #right>div{
   margin: 10px;
 }
 #right > #sign{
-
+ padding: 5px;
  height: 30px;
 border-radius: 20px;
 color: white;
@@ -39,23 +36,15 @@ color: white;
 }
 #left{
   margin-top: -70px;
-  
 }
 #right > #login{
  border: 1px solid blue;
  height: 30px;
 border-radius: 20px;
-
+padding: 5px;
 color: blue;
 
 }
-
-
-
-
-
-
-
 #bro{
          display: flex;
          width: 80%;
@@ -151,23 +140,6 @@ color: blue;
      }
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
      #bro2{
          width: 80%;
          margin-left: 10%;
@@ -228,32 +200,13 @@ color: blue;
          height: 100%;   
      }
      }
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-     #bro3{
+        #bro3{
          margin-top: 80px;
          display: flex;
          width: 80%;
          margin-left: 10%;
          height: 800px;
-        
-         
-         
-         
-     }
+        }
      #bro3>div{
          
          margin-top: 50px;
