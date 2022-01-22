@@ -19,14 +19,14 @@
         <img id="left1" src="https://storage.googleapis.com/lumen5-site-images/L5-logo/L5-logo-header.png" alt="">
     </div>
     <div id="right">
-    <div onclick="window.location.href='about.html'">Create</div>
+    <div>Create</div>
    
-    <div onclick="window.location.href='women.html'">Pricing</div>
-    <div onclick="window.location.href='men.html'">Enterprise</div>
-    <div onclick="window.location.href='login.html'">CaseStudies</div>
+    <div onclick="window.location.href='pricing.html'">Pricing</div>
+    <div>Enterprise</div>
+    <div onclick="window.location.href='CaseStudies.html'">CaseStudies</div>
     
-    <div onclick="window.location.href='about.html'">Learn</div>
-    <div id="login" onclick="window.location.href='about.html'">Login</div>
+    <div>Learn</div>
+    <div id="login" onclick="window.location.href='loginpage.html'">Login</div>
     <div id="sign" onclick="window.location.href='signup.html'">Signup</div>
   </div>
 
@@ -46,7 +46,7 @@
     thought leadership, and   
     brand awareness in a snap.</p>    
 
-<button style="color: white;  background-color: royalblue;border-radius: 30px;height: 50px;width: 130px;">Sign up free</button>
+<button style="color: white;  background-color: royalblue;border-radius: 30px;height: 50px;width: 130px;" onclick=clickme()>Sign up free</button>
 </div>
 <div >
 <img  id="a1" src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png" alt=""></video>
@@ -530,3 +530,9 @@
   </div>
 </body>
 </html>
+
+<script>
+  function clickme(){
+    window.location.href="signUp.html"
+  }
+</script>

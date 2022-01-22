@@ -13,8 +13,10 @@
   background-color: white;
 }
 #left1{
- margin-top: 15px;
+ margin-top: 40px;
  margin-left: 60px;
+ width: 150px;
+ height: 100px;
 }
 #right{
   display: flex;
@@ -22,6 +24,9 @@
   justify-content: space-around;
   margin-left: 200px;
   margin-right: 50px;
+}
+#right:hover{
+    cursor: pointer;
 }
 #right>div{
   margin: 10px;
