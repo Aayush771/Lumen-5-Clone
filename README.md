@@ -8,7 +8,7 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> About Website: </span>
 
- [Lumen5](https://lumen5.com) Lumen5, Lumen5  is a video creation platform powered by A.I. that enables anyone without training or experience to easily create engaging video content within a minutes
+ [Lumen5](https://lumen5.com), Lumen5  is a video creation platform powered by A.I. that enables anyone without training or experience to easily create engaging video content within a minutes
  
 
 # <span style="color:red"> Tech Stack Used: </span>
